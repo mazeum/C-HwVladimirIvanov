@@ -18,8 +18,9 @@ int result = NumInPow(a, b);
 Console.Write($"Число {a} в степени {b} = {result}");
 
 
-// Напишите программу, которая принимает на вход 
-// число и выдаёт сумму цифр в числе.
+// Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
+
+
 int SumofDigits(int number)
 {
     int ed = 0, count = 0;
@@ -36,8 +37,8 @@ int num = Convert.ToInt32(Console.ReadLine());
 int result = SumofDigits(num);
 Console.Write($"Digit summ of your number is: {result}");
 
-*/
-//
+
+// Задача 29: Напишите программу, которая задаёт массив из N элементов и выводит их на экран.
 
 int[] CreateArray(int size)
 {
@@ -60,3 +61,5 @@ Console.Write("Input a size of array:");
 int size = Convert.ToInt32(Console.ReadLine());
 int[] myArray = CreateArray(size);
 ShowArray(myArray);
+
+*/
